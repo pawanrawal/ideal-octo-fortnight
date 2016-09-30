@@ -7,3 +7,9 @@ type ErrID struct {
 type errId struct {
 	b int
 }
+
+func Exported() {
+}
+
+func unexported() {
+}
